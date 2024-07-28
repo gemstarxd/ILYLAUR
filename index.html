@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>LAUR BDAY!!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <h1 id="main-text">Make a wish...</h1>
+    <br>
+    <h2 id="sub-text">...and blow the candle</h2>
+    <div class="glow" id="glow"></div>
+    <div id="candle">
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div class="stripe"></div>
+        <div id="top">
+            <div class="smoke"></div>
+            <div class="smoke"></div>
+            <div class="smoke"></div>
+            <div id="knot"></div>
+            <div class="burn" id="flame"></div>
+        </div>
+    </div>
+   
+
+        
+    </div>
+
+     <style>
+        .ui-dialog-titlebar {
+            position: relative;
+            background: #f0c8d6; /* Lighter pink background color */
+            color: white; /* Change text color if needed */
+        }
+        .ui-dialog-titlebar::after {
+            content: "🎀"; /* Add a bow */
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .ui-dialog-title {
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #replay-dialog p {
+            text-align: center;
+            font-size: 16px;
+        }
+        .ui-dialog-content {
+            background: #223b6b; /* Lighter background color */
+        }
+
+      
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+        }
+    </style>
+</body>
+</html>
